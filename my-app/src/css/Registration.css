@@ -1,0 +1,40 @@
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
